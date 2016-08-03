@@ -5,11 +5,33 @@
 [![License](https://img.shields.io/cocoapods/l/HAutoScrollView.svg?style=flat)](http://cocoapods.org/pods/HAutoScrollView)
 [![Platform](https://img.shields.io/cocoapods/p/HAutoScrollView.svg?style=flat)](http://cocoapods.org/pods/HAutoScrollView)
 
-## Example
+>
+循环ScrollView,支持自动滚动、支持点击事件代理回调，已处理NSTimer 销毁，处理AutoLayout 适配。
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+##### `启动自动滚动`
 
-## Requirements
+- `[autoScroll setAutoFlip:true];`
+
+##### `设置滚动时间`
+
+- `[autoScroll setFlipInterval:3.0];`
+
+##### `Delegate&DataSource`
+
+- `[autoScroll setDelegate:self];`
+- `[autoScroll setDataSource:self];`
+
+##### `点击事件`
+ 
+- `-(void)autoScrollView:(HAutoScrollView *)asView
+ didSelectAtPageIndex:(NSInteger)pIndex;`
+ 
+#####  `数据源`
+
+- `-(NSInteger)numberOfPagesInHAutoScrollView:(HAutoScrollView *)asView;`
+- `-(UIView *)pageAtIndex:(NSInteger)index
+        autoScrollView:(HAutoScrollView *)asView;`
+
 
 ## Installation
 
@@ -20,10 +42,21 @@ it, simply add the following line to your Podfile:
 pod "HAutoScrollView"
 ```
 
-## Author
-
-LiangJun.Hu, hulj1204@yahoo.com
-
 ## License
 
 HAutoScrollView is available under the MIT license. See the LICENSE file for more info.
+
+===
+
+##### `效果图`
+>
+![image](https://github.com/iFallen/HAutoScrollView/raw/master/img/1.png)
+>
+![image](https://github.com/iFallen/HAutoScrollView/raw/master/img/2.png)
+>
+![image](https://github.com/iFallen/HAutoScrollView/raw/master/img/3.png)
+>
+![image](https://github.com/iFallen/HAutoScrollView/raw/master/img/4.png)
+
+
+
