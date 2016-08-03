@@ -517,7 +517,7 @@
 				GCC_PREFIX_HEADER = "HAutoScrollView/HAutoScrollView-Prefix.pch";
 				INFOPLIST_FILE = "HAutoScrollView/HAutoScrollView-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rimi.HAutoScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -533,7 +533,7 @@
 				GCC_PREFIX_HEADER = "HAutoScrollView/HAutoScrollView-Prefix.pch";
 				INFOPLIST_FILE = "HAutoScrollView/HAutoScrollView-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rimi.HAutoScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

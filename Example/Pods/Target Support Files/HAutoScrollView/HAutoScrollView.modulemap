@@ -1,0 +1,6 @@
+framework module HAutoScrollView {
+  umbrella header "HAutoScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}
