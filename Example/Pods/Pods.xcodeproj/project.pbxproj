@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39417CAC4833110BA3DC4DB3A8AAC846 /* HAutoScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1846001BBD4AFD2F0B831AAF057B0 /* HAutoScrollView-dummy.m */; };
-		3E2A0AF700A3AB054E2E358206BAEE38 /* HAutoScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8B01D1C9F44EAD7C150FC464053084 /* HAutoScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4346405A25B2589A287DA5DAB1EFA146 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		466BA2BB117D0CC2652A397F69DBAFBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		9753C17563C2C0EBE1D0583A8F26D5CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		A88F2A98D62EE183D39E39A066DACED4 /* Pods-HAutoScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF4C9A431861A9CE88EB6F6EDBC6890 /* Pods-HAutoScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABEED00726D2665A0F694B7FC4A0D40B /* HAutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A14073732FDB4FBF1445DC3307B5E26B /* HAutoScrollView.m */; };
 		B5BE4028CE0B29A24A234F7C91865C34 /* Pods-HAutoScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D08BE06D77538E95F420C230E6FE6119 /* Pods-HAutoScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0701A431D520AE4005247AC /* HAutoScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0701A411D520AE4005247AC /* HAutoScrollView.h */; };
-		C0701A441D520AE4005247AC /* HAutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0701A421D520AE4005247AC /* HAutoScrollView.m */; };
+		B9A7505E7E7602BDC4C4A82FA54AD38C /* HAutoScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F32E0D5B6B079D94B1B61E5B04864CB6 /* HAutoScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1952B7ADB921F4D95E9757B5476317C /* Pods-HAutoScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E2D6D84144328C8A2CAEDD804DBE3 /* Pods-HAutoScrollView_Example-dummy.m */; };
+		C82D3D9FC5CF9A25BE396B801221CB3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E0B0AF85088128BA755FCF04418C30EB /* HAutoScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B039BFA3979ACE8467534C588CA4896F /* HAutoScrollView-dummy.m */; };
 		E6E63A7E83F86C806DAADED5289382A2 /* Pods-HAutoScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 047710F6B7A213359C458A4FD0EC4C5D /* Pods-HAutoScrollView_Tests-dummy.m */; };
+		EA2BA789CDECFB0D3261A27DCD35C975 /* HAutoScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E86C988CEB399449127C336FBFB3EA /* HAutoScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,48 +25,56 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F7919B8682505199B4BFEADA2D8B213;
+			remoteGlobalIDString = 033F4A9D741D30D51D632442A17E7709;
 			remoteInfo = HAutoScrollView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030CDC7D3E7168438C4066AE72FE1A4C /* HAutoScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HAutoScrollView.xcconfig; sourceTree = "<group>"; };
 		047710F6B7A213359C458A4FD0EC4C5D /* Pods-HAutoScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HAutoScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
-		25CD74204672C63C44189CCCFD752C52 /* HAutoScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HAutoScrollView-prefix.pch"; sourceTree = "<group>"; };
 		2679F75C188701102703AD26D9FC08DB /* Pods-HAutoScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HAutoScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3CA1846001BBD4AFD2F0B831AAF057B0 /* HAutoScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HAutoScrollView-dummy.m"; sourceTree = "<group>"; };
-		3E8B01D1C9F44EAD7C150FC464053084 /* HAutoScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HAutoScrollView-umbrella.h"; sourceTree = "<group>"; };
 		3EF4C9A431861A9CE88EB6F6EDBC6890 /* Pods-HAutoScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HAutoScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		40312112711CEA11082B1F8A9415F431 /* Pods-HAutoScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HAutoScrollView_Example.modulemap"; sourceTree = "<group>"; };
 		4175E4423A86322BA554F5719909926B /* Pods-HAutoScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HAutoScrollView_Tests.modulemap"; sourceTree = "<group>"; };
 		43661DFFC72ECCBFD47004345F95FE82 /* HAutoScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HAutoScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		484D9C3DA831C7A29F65335263DB7EA7 /* Pods-HAutoScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HAutoScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4BEF6CEF4712EFFE6C00DC2321235ED8 /* Pods-HAutoScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HAutoScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4EB1EDA028D972B9165C4C0F51EC3A33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F874123AA71DE6275A8A864EE1A4493 /* Pods-HAutoScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HAutoScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5E53D31DC2061C5A4BB99694DC2D3E8C /* Pods-HAutoScrollView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HAutoScrollView_Example-resources.sh"; sourceTree = "<group>"; };
 		6516C5B080F94A1854A0365CE00FC192 /* Pods_HAutoScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAutoScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6863DB9C8A1B5C32D9812C2BDC83F454 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		753C92E26AF28885C56D765F67C84F0D /* HAutoScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HAutoScrollView.modulemap; sourceTree = "<group>"; };
+		78E86C988CEB399449127C336FBFB3EA /* HAutoScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HAutoScrollView-umbrella.h"; sourceTree = "<group>"; };
 		845E2D6D84144328C8A2CAEDD804DBE3 /* Pods-HAutoScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HAutoScrollView_Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96E6CD8D5A0EF4A2D3666373F1F39E6E /* Pods-HAutoScrollView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HAutoScrollView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		97991EC1515ADA33B0B78DE58D8C1B69 /* Pods_HAutoScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAutoScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3472F1C455300C872E8BD96075B1A4 /* Pods-HAutoScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HAutoScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A14073732FDB4FBF1445DC3307B5E26B /* HAutoScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HAutoScrollView.m; path = HAutoScrollView/Classes/HAutoScrollView.m; sourceTree = "<group>"; };
+		B039BFA3979ACE8467534C588CA4896F /* HAutoScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HAutoScrollView-dummy.m"; sourceTree = "<group>"; };
 		B5C001F164481F8C98E2DD81D8F5BC23 /* Pods-HAutoScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HAutoScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B9210CF76D6BA03BA7E0D19F266B56EB /* Pods-HAutoScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HAutoScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C0701A411D520AE4005247AC /* HAutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAutoScrollView.h; sourceTree = "<group>"; };
-		C0701A421D520AE4005247AC /* HAutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAutoScrollView.m; sourceTree = "<group>"; };
 		C89A0D6F7D616458ED1961F34CA151A5 /* Pods-HAutoScrollView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HAutoScrollView_Tests-resources.sh"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D0647C5C5B3AE583E767BA9F03D551B7 /* Pods-HAutoScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HAutoScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D08BE06D77538E95F420C230E6FE6119 /* Pods-HAutoScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HAutoScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
+		D1D4AD15163CC160DC64AE4CE0CBE7FC /* HAutoScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HAutoScrollView-prefix.pch"; sourceTree = "<group>"; };
 		D9099E6FF7CEB9C6BAE94DA62D065CA5 /* Pods-HAutoScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HAutoScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D9A6C25F612971655C8EC2D32C0B6D28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB898B9FA5691EAD71AE5FFE23E05CE5 /* HAutoScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HAutoScrollView.modulemap; sourceTree = "<group>"; };
 		DCD239C4DCF0487FA3C70E2F9DFA581E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2E7CB7276FC1A501F330919F90CEFEA /* HAutoScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HAutoScrollView.xcconfig; sourceTree = "<group>"; };
+		F32E0D5B6B079D94B1B61E5B04864CB6 /* HAutoScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HAutoScrollView.h; path = HAutoScrollView/Classes/HAutoScrollView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		27ECD67ADB5174FE75119F1D94DBBAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82D3D9FC5CF9A25BE396B801221CB3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4484ED98DDE3B90561B5EE697510C6EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,25 +91,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE80B7637923D189C8735B6C424362E3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4346405A25B2589A287DA5DAB1EFA146 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FC8B7BF46FDEE002923FD7F84A23C99 /* HAutoScrollView */ = {
+		0F2E83E6AD9934038109E905581890D0 /* HAutoScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				850EAB76EAD18BD40AEA0F9E6EEBE16F /* HAutoScrollView */,
-				91A32380A06FB25C37390C71E86B20B0 /* Support Files */,
+				F32E0D5B6B079D94B1B61E5B04864CB6 /* HAutoScrollView.h */,
+				A14073732FDB4FBF1445DC3307B5E26B /* HAutoScrollView.m */,
+				3CF72AAC6C7DDF533A52C285B6BC3B46 /* Support Files */,
 			);
-			name = HAutoScrollView;
-			path = ../..;
+			path = HAutoScrollView;
+			sourceTree = "<group>";
+		};
+		2CECEA119973426CD79396B5CAAEFE21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F2E83E6AD9934038109E905581890D0 /* HAutoScrollView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3CF72AAC6C7DDF533A52C285B6BC3B46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB898B9FA5691EAD71AE5FFE23E05CE5 /* HAutoScrollView.modulemap */,
+				030CDC7D3E7168438C4066AE72FE1A4C /* HAutoScrollView.xcconfig */,
+				B039BFA3979ACE8467534C588CA4896F /* HAutoScrollView-dummy.m */,
+				D1D4AD15163CC160DC64AE4CE0CBE7FC /* HAutoScrollView-prefix.pch */,
+				78E86C988CEB399449127C336FBFB3EA /* HAutoScrollView-umbrella.h */,
+				4EB1EDA028D972B9165C4C0F51EC3A33 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HAutoScrollView";
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -110,14 +132,6 @@
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		47F71F159DD925574906E6FFB12A3F51 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0FC8B7BF46FDEE002923FD7F84A23C99 /* HAutoScrollView */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		6E18E421F70EEC1A9F38403F71853629 /* Pods-HAutoScrollView_Tests */ = {
@@ -151,19 +165,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				47F71F159DD925574906E6FFB12A3F51 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2CECEA119973426CD79396B5CAAEFE21 /* Pods */,
 				E02BAD31F76AAC9BB4008A5C85E0D3EE /* Products */,
 				77D8609D56F678DDDE1BF2498ACDBA99 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		850EAB76EAD18BD40AEA0F9E6EEBE16F /* HAutoScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				D141A902978772BEEFEED6AE1A7B9E27 /* Classes */,
-			);
-			path = HAutoScrollView;
 			sourceTree = "<group>";
 		};
 		88CBDAE399B8062DC93AF400F2F4A966 /* Pods-HAutoScrollView_Example */ = {
@@ -184,35 +190,12 @@
 			path = "Target Support Files/Pods-HAutoScrollView_Example";
 			sourceTree = "<group>";
 		};
-		91A32380A06FB25C37390C71E86B20B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				753C92E26AF28885C56D765F67C84F0D /* HAutoScrollView.modulemap */,
-				F2E7CB7276FC1A501F330919F90CEFEA /* HAutoScrollView.xcconfig */,
-				3CA1846001BBD4AFD2F0B831AAF057B0 /* HAutoScrollView-dummy.m */,
-				25CD74204672C63C44189CCCFD752C52 /* HAutoScrollView-prefix.pch */,
-				3E8B01D1C9F44EAD7C150FC464053084 /* HAutoScrollView-umbrella.h */,
-				D9A6C25F612971655C8EC2D32C0B6D28 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HAutoScrollView";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D141A902978772BEEFEED6AE1A7B9E27 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C0701A411D520AE4005247AC /* HAutoScrollView.h */,
-				C0701A421D520AE4005247AC /* HAutoScrollView.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		E02BAD31F76AAC9BB4008A5C85E0D3EE /* Products */ = {
@@ -228,12 +211,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6D4B71B051A325FFD8C8E8C367D92A9E /* Headers */ = {
+		3EBA2AB43C48F26F31BAEFC80A428F54 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0701A431D520AE4005247AC /* HAutoScrollView.h in Headers */,
-				3E2A0AF700A3AB054E2E358206BAEE38 /* HAutoScrollView-umbrella.h in Headers */,
+				EA2BA789CDECFB0D3261A27DCD35C975 /* HAutoScrollView-umbrella.h in Headers */,
+				B9A7505E7E7602BDC4C4A82FA54AD38C /* HAutoScrollView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,13 +239,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3F7919B8682505199B4BFEADA2D8B213 /* HAutoScrollView */ = {
+		033F4A9D741D30D51D632442A17E7709 /* HAutoScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBEF065D2AD33B126801B4A6A4DEEF76 /* Build configuration list for PBXNativeTarget "HAutoScrollView" */;
+			buildConfigurationList = 6EDBDDF581380A8AB1B8CC0DA4F3AEF3 /* Build configuration list for PBXNativeTarget "HAutoScrollView" */;
 			buildPhases = (
-				1A022DB02CBFFE73AF12EA74A08005C2 /* Sources */,
-				EE80B7637923D189C8735B6C424362E3 /* Frameworks */,
-				6D4B71B051A325FFD8C8E8C367D92A9E /* Headers */,
+				01BF5080844F6EAEACF6AFB81065002C /* Sources */,
+				27ECD67ADB5174FE75119F1D94DBBAE1 /* Frameworks */,
+				3EBA2AB43C48F26F31BAEFC80A428F54 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -329,7 +312,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F7919B8682505199B4BFEADA2D8B213 /* HAutoScrollView */,
+				033F4A9D741D30D51D632442A17E7709 /* HAutoScrollView */,
 				C693F8160230D86787BF91166CCFB887 /* Pods-HAutoScrollView_Example */,
 				BBA786F7B1164FEBEAC3B29FEE3B4833 /* Pods-HAutoScrollView_Tests */,
 			);
@@ -337,12 +320,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A022DB02CBFFE73AF12EA74A08005C2 /* Sources */ = {
+		01BF5080844F6EAEACF6AFB81065002C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39417CAC4833110BA3DC4DB3A8AAC846 /* HAutoScrollView-dummy.m in Sources */,
-				C0701A441D520AE4005247AC /* HAutoScrollView.m in Sources */,
+				E0B0AF85088128BA755FCF04418C30EB /* HAutoScrollView-dummy.m in Sources */,
+				ABEED00726D2665A0F694B7FC4A0D40B /* HAutoScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +351,7 @@
 		660223A9F65A1B41A7828DCDB6292C20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HAutoScrollView;
-			target = 3F7919B8682505199B4BFEADA2D8B213 /* HAutoScrollView */;
+			target = 033F4A9D741D30D51D632442A17E7709 /* HAutoScrollView */;
 			targetProxy = 78EE834E85B15736DB3CD19AFC1E429A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,35 +395,6 @@
 			};
 			name = Release;
 		};
-		4509E8520B0DB653071FAAD832931DC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2E7CB7276FC1A501F330919F90CEFEA /* HAutoScrollView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HAutoScrollView/HAutoScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HAutoScrollView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HAutoScrollView/HAutoScrollView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HAutoScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4C90B7E78FC80E4A74C70DB5C9A5DA5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5C001F164481F8C98E2DD81D8F5BC23 /* Pods-HAutoScrollView_Example.release.xcconfig */;
@@ -474,6 +428,35 @@
 			};
 			name = Release;
 		};
+		797A9ED592C641A36F1388B16FA42204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030CDC7D3E7168438C4066AE72FE1A4C /* HAutoScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HAutoScrollView/HAutoScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HAutoScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HAutoScrollView/HAutoScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HAutoScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		910B4FE2C77EC824DD917B159D6B880D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0647C5C5B3AE583E767BA9F03D551B7 /* Pods-HAutoScrollView_Tests.debug.xcconfig */;
@@ -506,35 +489,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		9CC990476F9D8A2F8F93E368B062E232 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2E7CB7276FC1A501F330919F90CEFEA /* HAutoScrollView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HAutoScrollView/HAutoScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HAutoScrollView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HAutoScrollView/HAutoScrollView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = HAutoScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B981890B1A813B748CFD0654B4D1EB38 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -602,6 +556,35 @@
 			};
 			name = Debug;
 		};
+		CE620DB8DA24B4A0BD9C894E426DDE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030CDC7D3E7168438C4066AE72FE1A4C /* HAutoScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HAutoScrollView/HAutoScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HAutoScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HAutoScrollView/HAutoScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HAutoScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -656,11 +639,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBEF065D2AD33B126801B4A6A4DEEF76 /* Build configuration list for PBXNativeTarget "HAutoScrollView" */ = {
+		6EDBDDF581380A8AB1B8CC0DA4F3AEF3 /* Build configuration list for PBXNativeTarget "HAutoScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4509E8520B0DB653071FAAD832931DC2 /* Debug */,
-				9CC990476F9D8A2F8F93E368B062E232 /* Release */,
+				797A9ED592C641A36F1388B16FA42204 /* Debug */,
+				CE620DB8DA24B4A0BD9C894E426DDE39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
