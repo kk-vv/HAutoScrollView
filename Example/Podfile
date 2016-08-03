@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HAutoScrollView_Example' do
+  pod 'HAutoScrollView', :path => '../'
+
+  target 'HAutoScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
