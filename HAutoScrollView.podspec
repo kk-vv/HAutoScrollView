@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://ifallen.github.io'
 
   s.ios.deployment_target = '7.0'
+  s.requires_arc = true
 
   s.source_files = 'HAutoScrollView/Classes/**/*'
   s.public_header_files = 'HAutoScrollView/Classes/**/*.h'
