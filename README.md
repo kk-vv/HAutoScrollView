@@ -49,14 +49,15 @@ HAutoScrollView is available under the MIT license. See the LICENSE file for mor
 ===
 
 ##### `效果图`
->
-![image](https://github.com/iFallen/HAutoScrollView/raw/master/img/1.png)
->
-![image](https://github.com/iFallen/HAutoScrollView/raw/master/img/2.png)
->
-![image](https://github.com/iFallen/HAutoScrollView/raw/master/img/3.png)
->
-![image](https://github.com/iFallen/HAutoScrollView/raw/master/img/4.png)
 
+|1|2|3|
+|:-----------:|:-----------:|:-----------:|
+|![image][1]|![image][2]|![image][3]|
 
+>
+![image][4]
 
+[1]: https://github.com/iFallen/HAutoScrollView/raw/master/img/1.png
+[2]: https://github.com/iFallen/HAutoScrollView/raw/master/img/2.png
+[3]: https://github.com/iFallen/HAutoScrollView/raw/master/img/3.png
+[4]: https://github.com/iFallen/HAutoScrollView/raw/master/img/4.png
