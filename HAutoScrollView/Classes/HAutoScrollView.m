@@ -188,7 +188,6 @@
          */
         float offsetX=_scrollView.contentOffset.x+_scrollView.frame.size.width;
         int index = (offsetX / _scrollView.frame.size.width + 0.5);
-        NSLog(@"%ld",index);
         [_scrollView setContentOffset:CGPointMake(index * _scrollView.frame.size.width, 0) animated:YES];
     }
 }
