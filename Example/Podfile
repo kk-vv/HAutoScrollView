@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'HAutoScrollView_Example' do
-  pod 'HAutoScrollView'
+  pod 'HAutoScrollView', :path => '../'
 
   target 'HAutoScrollView_Tests' do
     inherit! :search_paths

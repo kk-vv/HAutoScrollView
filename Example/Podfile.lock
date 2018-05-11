@@ -1,12 +1,16 @@
 PODS:
-  - HAutoScrollView (0.1.0)
+  - HAutoScrollView (1.0.4)
 
 DEPENDENCIES:
-  - HAutoScrollView
+  - HAutoScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  HAutoScrollView:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  HAutoScrollView: 8314380b77f273cbc0c9f4b2d813d6e4edf7edd0
+  HAutoScrollView: c8de053cb00e87ab36e8acd12a6ce85324f855b4
 
-PODFILE CHECKSUM: 8ccc7573029efef5933fac41551ea8ca5d0ab644
+PODFILE CHECKSUM: 9b9e4992b029233ff81d81545effd9b168d761e5
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.5.2
