@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HAutoScrollView'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'HAutoScrollView'
   s.description      = <<-DESC
   循环ScrollView,支持自动滚动、支持点击事件代理回调，已处理NSTimer 销毁，处理AutoLayout 适配。
