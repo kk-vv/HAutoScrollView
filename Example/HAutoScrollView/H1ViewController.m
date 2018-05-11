@@ -32,7 +32,7 @@
     [autoScroll setAutoFlip:true];
 //    [autoScroll setFlipInterval:1.0];
     //[self.view addSubview:autoScroll];
-    
+
     UIScrollView * srollview = [[UIScrollView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:srollview];
     [srollview setContentSize:CGSizeMake(self.view.frame.size.width, self.view.frame.size.height * 2)];

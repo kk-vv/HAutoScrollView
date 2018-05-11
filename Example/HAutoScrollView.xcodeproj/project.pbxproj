@@ -19,6 +19,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6A73674B20A5692300E545F7 /* HTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A73674A20A5692300E545F7 /* HTableViewController.m */; };
 		713D76522D65C82CC7D7BA7C /* Pods_HAutoScrollView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3805A6C39A15BEB7FE56692D /* Pods_HAutoScrollView_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C0701A491D521EF1005247AC /* H2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0701A461D521EF1005247AC /* H2ViewController.m */; };
@@ -71,6 +72,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6A73674920A5692300E545F7 /* HTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTableViewController.h; sourceTree = "<group>"; };
+		6A73674A20A5692300E545F7 /* HTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTableViewController.m; sourceTree = "<group>"; };
 		705245A543D31130DD426CCB /* HAutoScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HAutoScrollView.podspec; path = ../HAutoScrollView.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C0701A451D521EF1005247AC /* H2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H2ViewController.h; sourceTree = "<group>"; };
@@ -157,6 +160,8 @@
 			children = (
 				6003F59C195388D20070C39A /* HAppDelegate.h */,
 				6003F59D195388D20070C39A /* HAppDelegate.m */,
+				6A73674920A5692300E545F7 /* HTableViewController.h */,
+				6A73674A20A5692300E545F7 /* HTableViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				C0701A451D521EF1005247AC /* H2ViewController.h */,
 				C0701A461D521EF1005247AC /* H2ViewController.m */,
@@ -447,6 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A73674B20A5692300E545F7 /* HTableViewController.m in Sources */,
 				6003F59E195388D20070C39A /* HAppDelegate.m in Sources */,
 				C0701A4A1D521EF1005247AC /* H1ViewController.m in Sources */,
 				C0701A491D521EF1005247AC /* H2ViewController.m in Sources */,

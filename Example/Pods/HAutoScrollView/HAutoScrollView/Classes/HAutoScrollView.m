@@ -188,6 +188,7 @@
          */
         float offsetX=_scrollView.contentOffset.x+_scrollView.frame.size.width;
         int index = (offsetX / _scrollView.frame.size.width + 0.5);
+        NSLog(@"%ld",index);
         [_scrollView setContentOffset:CGPointMake(index * _scrollView.frame.size.width, 0) animated:YES];
     }
 }
@@ -257,13 +258,38 @@
         [self pauseTimer];
     }
 }
-
+//PUSH 到下一层的时候有点奇葩
 -(void)willMoveToWindow:(UIWindow *)newWindow{
-    if (newWindow == nil) {
-        dealloc = true;
-        [self stopTimer];
-    }
+    [super willMoveToWindow:newWindow];
+    //NSLog(@"3 willMoveToWindow %p", newWindow);
+//    if (newWindow == nil) {
+//        dealloc = true;
+//        [self stopTimer];
+//    }
 }
+
+- (void)didMoveToWindow {
+    [super didMoveToWindow];
+    //NSLog(@"4 didMoveToWindow %p", self.window);
+}
+
+- (void)willMoveToSuperview:(UIView *)newSuperview {
+    [super willMoveToSuperview:newSuperview];
+    //NSLog(@"1 willMoveToSuperview %p", newSuperview);
+}
+
+- (void)didMoveToSuperview {
+    [super didMoveToSuperview];
+    //NSLog(@"2 didMoveToSuperview %p", self.superview);
+}
+
+- (void)removeFromSuperview {
+    [super removeFromSuperview];
+    //NSLog(@"5 removeFromSuperview %p", self.superview);
+    dealloc = true;
+    [self stopTimer];
+}
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

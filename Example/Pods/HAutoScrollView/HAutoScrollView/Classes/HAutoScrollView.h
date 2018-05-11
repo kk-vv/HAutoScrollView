@@ -39,5 +39,6 @@
 @property (nonatomic,assign, setter=setDataSource:) id<HAutoScrollViewDataSource> dataSource;
 
 -(void)reloadData;
+-(void)stopTimer;
 
 @end
