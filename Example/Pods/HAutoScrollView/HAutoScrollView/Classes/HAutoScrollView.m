@@ -262,33 +262,36 @@
 -(void)willMoveToWindow:(UIWindow *)newWindow{
     [super willMoveToWindow:newWindow];
     //NSLog(@"3 willMoveToWindow %p", newWindow);
-//    if (newWindow == nil) {
-//        dealloc = true;
-//        [self stopTimer];
-//    }
+    if (newWindow == nil) {
+        dealloc = true;
+        [self stopTimer];
+    } else {
+        dealloc = false;
+        [self setAutoFlip:_autoFlip];
+    }
 }
 
-- (void)didMoveToWindow {
-    [super didMoveToWindow];
-    //NSLog(@"4 didMoveToWindow %p", self.window);
-}
-
-- (void)willMoveToSuperview:(UIView *)newSuperview {
-    [super willMoveToSuperview:newSuperview];
-    //NSLog(@"1 willMoveToSuperview %p", newSuperview);
-}
-
-- (void)didMoveToSuperview {
-    [super didMoveToSuperview];
-    //NSLog(@"2 didMoveToSuperview %p", self.superview);
-}
-
-- (void)removeFromSuperview {
-    [super removeFromSuperview];
-    //NSLog(@"5 removeFromSuperview %p", self.superview);
-    dealloc = true;
-    [self stopTimer];
-}
+//- (void)didMoveToWindow {
+//    [super didMoveToWindow];
+//    //NSLog(@"4 didMoveToWindow %p", self.window);
+//}
+//
+//- (void)willMoveToSuperview:(UIView *)newSuperview {
+//    [super willMoveToSuperview:newSuperview];
+//    //NSLog(@"1 willMoveToSuperview %p", newSuperview);
+//}
+//
+//- (void)didMoveToSuperview {
+//    [super didMoveToSuperview];
+//    //NSLog(@"2 didMoveToSuperview %p", self.superview);
+//}
+//
+//- (void)removeFromSuperview {
+//    [super removeFromSuperview];
+//    //NSLog(@"5 removeFromSuperview %p", self.superview);
+//    dealloc = true;
+//    [self stopTimer];
+//}
 
 /*
 // Only override drawRect: if you perform custom drawing.
